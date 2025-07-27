@@ -9,3 +9,8 @@ Feature: The Internet Heroku App
     Given User is on Heroku Page
     When User click "Add Remove" Button
     Then User redirected to "Add Remove" Page
+
+  Scenario: Successfully go to Broken Images Testing Page
+    Given User is on Heroku Page
+    When User click "Broken Images" Button
+    Then User redirected to "Broken Images" Page  
