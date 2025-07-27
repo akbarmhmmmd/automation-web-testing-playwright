@@ -18,7 +18,7 @@ class HerokuPage {
         expectedText: 'Add/Remove Elements',
       },
       'Broken Images': {
-        button: this.page.locator('a[href="/broken_images""]'),
+        button: this.page.locator('a[href="/broken_images"]'),
         text: this.page.locator('#content'),
         expectedText: 'Broken Images',
       },
